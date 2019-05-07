@@ -1,5 +1,12 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/perph/perph-agent/cmd/agent"
+)
+
 func main() {
-	return
+	agent.Execute()
+	fmt.Println("shutting down")
 }
